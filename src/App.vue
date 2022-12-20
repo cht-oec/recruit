@@ -192,7 +192,11 @@ watchEffect(() => {
       <div class="container mx-auto px-4">
         <div class="content item-start flex items-center justify-start">
           <div class="text">
-            <img class="logo" src="./assets/images/logo.png" alt="" />
+            <div class="logo">
+              <img src="./assets/images/logo.png" alt="" />
+              <div class="dep sub-text">資訊技術分公司｜綜合企劃處</div>
+            </div>
+
             <div class="main">
               <div class="title">服務發展設計中心</div>
               <div class="title">2023實習計畫</div>
@@ -381,7 +385,7 @@ watchEffect(() => {
                   <img src="./assets/images/en_group_3.jpg" alt="" />
                 </div>
                 <div class="right-top-right relative">
-                  <img src="./assets/images/en_group_4.jpg" alt="" />
+                  <img src="./assets/images/en_group_4.png" alt="" />
                 </div>
               </div>
               <div class="right-bottom">
@@ -477,7 +481,7 @@ watchEffect(() => {
     <!-- apply -->
     <section id="section4">
       <div class="title">還在猶豫嗎？時間有限！快點擊報名</div>
-      <div class="sub-text">報名截至:2022/12/30 22:00</div>
+      <div class="sub-text">報名截至: 2023/01/06 22:00</div>
       <a
         href="https://forms.gle/FQtiLn7qntmVTHuQA"
         target="_blank"
@@ -538,15 +542,14 @@ header {
 
   .person {
     max-width: 100%;
-    height: 90%;
     z-index: 1;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10%;
+    right: 20%;
   }
 
   .content {
-    height: 80vh;
+    height: 100vh;
     flex: 1 1 auto;
     .main {
       max-width: 540px;
@@ -556,9 +559,16 @@ header {
     }
 
     .logo {
-      margin-bottom: 36px;
+      margin-bottom: 80px;
       position: relative;
       z-index: 3;
+      display: flex;
+      align-items: center;
+
+      .dep {
+        color: #fff;
+        margin-top: 8px;
+      }
     }
 
     .title {
@@ -837,6 +847,8 @@ header {
 @media (max-width: 1536px) {
   header {
     .person {
+      top: 5%;
+      right: 5%;
     }
   }
   #section1 {
@@ -862,9 +874,6 @@ header {
       height: 100vh;
     }
     .person {
-      width: 85%;
-      top: 5%;
-      height: auto;
     }
   }
   #section2 {
@@ -930,13 +939,24 @@ header {
       .main {
         margin-left: 0;
       }
+      .logo {
+        margin-bottom: 36px;
+        position: relative;
+        z-index: 3;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .dep {
+          color: #fff;
+          margin-top: 4px;
+          margin-left: 80px;
+        }
+      }
       .title {
         font-size: $mobile-title;
       }
     }
     .person {
-      right: 0;
-      top: 15%;
     }
     .animation-wrapper {
       display: none;

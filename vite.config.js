@@ -11,6 +11,9 @@ export default defineConfig({
     },
   },
   base: "/recruit/",
+  server: {
+    host: "10.16.200.248",
+  },
   css: {
     preprocessorOptions: {
       scss: {
