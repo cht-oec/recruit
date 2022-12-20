@@ -430,8 +430,7 @@ watchEffect(() => {
           <div class="right w-full lg:w-[60%]">
             <div class="title">XR開發實習生</div>
             <div class="txt">
-              我們在尋找一位天真浪漫的人，他打從心底堅信世界將因為自己開發的 App
-              而產生變化，人們的生活也因此更加地便利。如果你符合我們所需要的特質，我們將盡可能提供給你大展手腳發揮實力的絢爛舞台。
+              在虛實整合科技的浪潮下，我們在尋找一位擁有良好執行力且相信XR虛擬數位將改變世界的你，邀請你和我們一起接受挑戰並突破現實框架，如果你符合我們所需要的特質，歡迎你與我們一起做夢，合作造夢。
             </div>
             <ul class="list">
               <li class="item">
@@ -544,8 +543,9 @@ header {
     max-width: 100%;
     z-index: 1;
     position: absolute;
-    top: 10%;
+    top: 50%;
     right: 20%;
+    transform: translateY(-60%);
   }
 
   .content {
@@ -553,7 +553,7 @@ header {
     flex: 1 1 auto;
     .main {
       max-width: 540px;
-      margin-left: 75px;
+      margin-left: 81px;
       z-index: 2;
       position: relative;
     }
@@ -847,7 +847,6 @@ header {
 @media (max-width: 1536px) {
   header {
     .person {
-      top: 5%;
       right: 5%;
     }
   }
@@ -936,9 +935,6 @@ header {
 @media (max-width: 1024px) {
   header {
     .content {
-      .main {
-        margin-left: 0;
-      }
       .logo {
         margin-bottom: 36px;
         position: relative;
@@ -949,7 +945,7 @@ header {
         .dep {
           color: #fff;
           margin-top: 4px;
-          margin-left: 80px;
+          margin-left: 81px;
         }
       }
       .title {
