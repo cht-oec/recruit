@@ -199,7 +199,7 @@ watchEffect(() => {
 
             <div class="main">
               <div class="title">服務發展設計中心</div>
-              <div class="title">2023實習計畫</div>
+              <div class="title">2023北科大實習計畫</div>
               <div class="sub-text">
                 CHT Design Center Internship program 2023
               </div>
