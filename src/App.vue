@@ -448,13 +448,15 @@ watchEffect(() => {
               <li class="item">
                 <div class="text">參加條件</div>
                 <ul class="detail">
-                  <li class="d-item">大三、大四、碩士（需為在學狀態）</li>
+                  <li class="d-item">大三、大四、碩士（需為北科大在學生）</li>
                 </ul>
               </li>
               <li class="item">
-                <div class="text">實習時間</div>
+                <div class="text">實習時程</div>
                 <ul class="detail">
-                  <li class="d-item">大三、大四、碩士（需為在學狀態）</li>
+                  <li class="d-item">
+                    112/02/01開始，為期共8個月，每週固定來2~3天，天數與時數細節可於面試時討論
+                  </li>
                 </ul>
               </li>
               <li class="item">
