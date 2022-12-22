@@ -1,7 +1,8 @@
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import VueSmoothScroll from "vue3-smooth-scroll";
-import App from "./App.vue";
+// import App from "./App.vue";
+import App from "./Output.vue";
 // import './assets/main.css'
 import "./styles/style.scss";
 const app = createApp(App);
